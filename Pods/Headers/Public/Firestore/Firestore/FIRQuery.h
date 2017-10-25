@@ -1,0 +1,1 @@
+../../../../Firestore/Frameworks/Firestore.framework/Headers/FIRQuery.h

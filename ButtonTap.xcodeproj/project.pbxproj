@@ -1,0 +1,678 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3C54BA84AB4D88923FE02297 /* libPods-ButtonTap.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 71F4F3E29A25660173B9651B /* libPods-ButtonTap.a */; };
+		C317BF4F1F8E2CC60036BF59 /* DataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C317BF4E1F8E2CC60036BF59 /* DataManager.m */; };
+		C317BF541F8E3B6C0036BF59 /* SplashScreenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C317BF531F8E3B6C0036BF59 /* SplashScreenViewController.m */; };
+		C35A3AE91F8F581D0088E0BE /* ResetPasswordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C35A3AE81F8F581D0088E0BE /* ResetPasswordViewController.m */; };
+		C35A3AEC1F8F59C40088E0BE /* Utility.m in Sources */ = {isa = PBXBuildFile; fileRef = C35A3AEB1F8F59C40088E0BE /* Utility.m */; };
+		C35AD5AA1F87933E0084619C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C35AD57F1F87933E0084619C /* AppDelegate.m */; };
+		C35AD5AB1F87933E0084619C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C35AD5801F87933E0084619C /* main.m */; };
+		C35AD5AC1F87933E0084619C /* TapMeManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C35AD5831F87933E0084619C /* TapMeManager.m */; };
+		C35AD5AD1F87933E0084619C /* HomeScreenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C35AD5861F87933E0084619C /* HomeScreenViewController.m */; };
+		C35AD5AE1F87933E0084619C /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C35AD5881F87933E0084619C /* GameViewController.m */; };
+		C35AD5AF1F87933E0084619C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C35AD58B1F87933E0084619C /* Assets.xcassets */; };
+		C35AD5B01F87933E0084619C /* bg_tile.png in Resources */ = {isa = PBXBuildFile; fileRef = C35AD58C1F87933E0084619C /* bg_tile.png */; };
+		C35AD5B11F87933E0084619C /* bg_tile@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C35AD58D1F87933E0084619C /* bg_tile@2x.png */; };
+		C35AD5B21F87933E0084619C /* button_tap_deselected.png in Resources */ = {isa = PBXBuildFile; fileRef = C35AD58E1F87933E0084619C /* button_tap_deselected.png */; };
+		C35AD5B31F87933E0084619C /* button_tap_deselected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C35AD58F1F87933E0084619C /* button_tap_deselected@2x.png */; };
+		C35AD5B41F87933E0084619C /* button_tap_selected.png in Resources */ = {isa = PBXBuildFile; fileRef = C35AD5901F87933E0084619C /* button_tap_selected.png */; };
+		C35AD5B51F87933E0084619C /* button_tap_selected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C35AD5911F87933E0084619C /* button_tap_selected@2x.png */; };
+		C35AD5B61F87933E0084619C /* ButtonTap.wav in Resources */ = {isa = PBXBuildFile; fileRef = C35AD5921F87933E0084619C /* ButtonTap.wav */; };
+		C35AD5B71F87933E0084619C /* checker_bottom.png in Resources */ = {isa = PBXBuildFile; fileRef = C35AD5931F87933E0084619C /* checker_bottom.png */; };
+		C35AD5B81F87933E0084619C /* checker_bottom@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C35AD5941F87933E0084619C /* checker_bottom@2x.png */; };
+		C35AD5B91F87933E0084619C /* checker_top.png in Resources */ = {isa = PBXBuildFile; fileRef = C35AD5951F87933E0084619C /* checker_top.png */; };
+		C35AD5BA1F87933E0084619C /* checker_top@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C35AD5961F87933E0084619C /* checker_top@2x.png */; };
+		C35AD5BB1F87933E0084619C /* field_score.png in Resources */ = {isa = PBXBuildFile; fileRef = C35AD5971F87933E0084619C /* field_score.png */; };
+		C35AD5BC1F87933E0084619C /* field_score@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C35AD5981F87933E0084619C /* field_score@2x.png */; };
+		C35AD5BD1F87933E0084619C /* field_time.png in Resources */ = {isa = PBXBuildFile; fileRef = C35AD5991F87933E0084619C /* field_time.png */; };
+		C35AD5BE1F87933E0084619C /* field_time@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C35AD59A1F87933E0084619C /* field_time@2x.png */; };
+		C35AD5BF1F87933E0084619C /* HallOfTheMountainKing.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C35AD59B1F87933E0084619C /* HallOfTheMountainKing.mp3 */; };
+		C35AD5C41F87933E0084619C /* SecondBeep.wav in Resources */ = {isa = PBXBuildFile; fileRef = C35AD5A01F87933E0084619C /* SecondBeep.wav */; };
+		C35AD5CA1F87933E0084619C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C35AD5A81F87933E0084619C /* LaunchScreen.storyboard */; };
+		C35AD5CB1F87933E0084619C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C35AD5A91F87933E0084619C /* Main.storyboard */; };
+		C3601AA71F8E23BB00470D29 /* ic_exit_to_app_white.png in Resources */ = {isa = PBXBuildFile; fileRef = C3601AA31F8E23B900470D29 /* ic_exit_to_app_white.png */; };
+		C3601AA81F8E23BB00470D29 /* ic_exit_to_app_white_2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C3601AA41F8E23B900470D29 /* ic_exit_to_app_white_2x.png */; };
+		C3601AA91F8E23BB00470D29 /* ic_exit_to_app_white_3x.png in Resources */ = {isa = PBXBuildFile; fileRef = C3601AA51F8E23B900470D29 /* ic_exit_to_app_white_3x.png */; };
+		C3601AB71F8E294D00470D29 /* ic_play_arrow_white_48pt.png in Resources */ = {isa = PBXBuildFile; fileRef = C3601AB41F8E294A00470D29 /* ic_play_arrow_white_48pt.png */; };
+		C3601AB81F8E294D00470D29 /* ic_play_arrow_white_48pt_2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C3601AB51F8E294A00470D29 /* ic_play_arrow_white_48pt_2x.png */; };
+		C3601AB91F8E294D00470D29 /* ic_play_arrow_white_48pt_3x.png in Resources */ = {isa = PBXBuildFile; fileRef = C3601AB61F8E294A00470D29 /* ic_play_arrow_white_48pt_3x.png */; };
+		C36459161F8CD44E00094922 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C36459151F8CD44E00094922 /* LoginViewController.m */; };
+		C36459181F8CDA7E00094922 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C36459171F8CDA7E00094922 /* GoogleService-Info.plist */; };
+		C364591B1F8CDD5200094922 /* SignUpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C364591A1F8CDD5200094922 /* SignUpViewController.m */; };
+		C38A4AD51F8B7EA000F47EAE /* ic_stop_white.png in Resources */ = {isa = PBXBuildFile; fileRef = C38A4AD21F8B7C6A00F47EAE /* ic_stop_white.png */; };
+		C38A4AD61F8B7EA000F47EAE /* ic_stop_white_2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C38A4AD31F8B7C6A00F47EAE /* ic_stop_white_2x.png */; };
+		C38A4AD71F8B7EA000F47EAE /* ic_stop_white_3x.png in Resources */ = {isa = PBXBuildFile; fileRef = C38A4AD41F8B7C6A00F47EAE /* ic_stop_white_3x.png */; };
+		C38A4AD81F8B7EA000F47EAE /* ic_play_circle_outline_white.png in Resources */ = {isa = PBXBuildFile; fileRef = C38A4ACD1F8B7A4B00F47EAE /* ic_play_circle_outline_white.png */; };
+		C38A4AD91F8B7EA000F47EAE /* ic_play_circle_outline_white_2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C38A4ACE1F8B7A4B00F47EAE /* ic_play_circle_outline_white_2x.png */; };
+		C38A4ADA1F8B7EA000F47EAE /* ic_play_circle_outline_white_3x.png in Resources */ = {isa = PBXBuildFile; fileRef = C38A4ACF1F8B7A4B00F47EAE /* ic_play_circle_outline_white_3x.png */; };
+		C38A4ADB1F8B7EA000F47EAE /* ic_pause_circle_outline_white.png in Resources */ = {isa = PBXBuildFile; fileRef = C38A4AC81F8B7A3D00F47EAE /* ic_pause_circle_outline_white.png */; };
+		C38A4ADC1F8B7EA000F47EAE /* ic_pause_circle_outline_white_2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C38A4AC91F8B7A3D00F47EAE /* ic_pause_circle_outline_white_2x.png */; };
+		C38A4ADD1F8B7EA000F47EAE /* ic_pause_circle_outline_white_3x.png in Resources */ = {isa = PBXBuildFile; fileRef = C38A4ACA1F8B7A3D00F47EAE /* ic_pause_circle_outline_white_3x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		71F4F3E29A25660173B9651B /* libPods-ButtonTap.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ButtonTap.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADB7F7343E6F1C871F4EB5D3 /* Pods-ButtonTap.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ButtonTap.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ButtonTap/Pods-ButtonTap.debug.xcconfig"; sourceTree = "<group>"; };
+		C3103BAD1E27536D00164E9A /* ButtonTap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ButtonTap.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C317BF4D1F8E2CC60036BF59 /* DataManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DataManager.h; sourceTree = "<group>"; };
+		C317BF4E1F8E2CC60036BF59 /* DataManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DataManager.m; sourceTree = "<group>"; };
+		C317BF511F8E2DB30036BF59 /* Define.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Define.h; sourceTree = "<group>"; };
+		C317BF521F8E3B6C0036BF59 /* SplashScreenViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SplashScreenViewController.h; sourceTree = "<group>"; };
+		C317BF531F8E3B6C0036BF59 /* SplashScreenViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SplashScreenViewController.m; sourceTree = "<group>"; };
+		C35A3AE71F8F581D0088E0BE /* ResetPasswordViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ResetPasswordViewController.h; sourceTree = "<group>"; };
+		C35A3AE81F8F581D0088E0BE /* ResetPasswordViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ResetPasswordViewController.m; sourceTree = "<group>"; };
+		C35A3AEA1F8F59C40088E0BE /* Utility.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Utility.h; sourceTree = "<group>"; };
+		C35A3AEB1F8F59C40088E0BE /* Utility.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Utility.m; sourceTree = "<group>"; };
+		C35AD57E1F87933E0084619C /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C35AD57F1F87933E0084619C /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C35AD5801F87933E0084619C /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C35AD5821F87933E0084619C /* TapMeManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TapMeManager.h; sourceTree = "<group>"; };
+		C35AD5831F87933E0084619C /* TapMeManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TapMeManager.m; sourceTree = "<group>"; };
+		C35AD5851F87933E0084619C /* HomeScreenViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeScreenViewController.h; sourceTree = "<group>"; };
+		C35AD5861F87933E0084619C /* HomeScreenViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeScreenViewController.m; sourceTree = "<group>"; };
+		C35AD5871F87933E0084619C /* GameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
+		C35AD5881F87933E0084619C /* GameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
+		C35AD58B1F87933E0084619C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C35AD58C1F87933E0084619C /* bg_tile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg_tile.png; sourceTree = "<group>"; };
+		C35AD58D1F87933E0084619C /* bg_tile@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bg_tile@2x.png"; sourceTree = "<group>"; };
+		C35AD58E1F87933E0084619C /* button_tap_deselected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_tap_deselected.png; sourceTree = "<group>"; };
+		C35AD58F1F87933E0084619C /* button_tap_deselected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button_tap_deselected@2x.png"; sourceTree = "<group>"; };
+		C35AD5901F87933E0084619C /* button_tap_selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_tap_selected.png; sourceTree = "<group>"; };
+		C35AD5911F87933E0084619C /* button_tap_selected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button_tap_selected@2x.png"; sourceTree = "<group>"; };
+		C35AD5921F87933E0084619C /* ButtonTap.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = ButtonTap.wav; sourceTree = "<group>"; };
+		C35AD5931F87933E0084619C /* checker_bottom.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = checker_bottom.png; sourceTree = "<group>"; };
+		C35AD5941F87933E0084619C /* checker_bottom@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "checker_bottom@2x.png"; sourceTree = "<group>"; };
+		C35AD5951F87933E0084619C /* checker_top.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = checker_top.png; sourceTree = "<group>"; };
+		C35AD5961F87933E0084619C /* checker_top@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "checker_top@2x.png"; sourceTree = "<group>"; };
+		C35AD5971F87933E0084619C /* field_score.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = field_score.png; sourceTree = "<group>"; };
+		C35AD5981F87933E0084619C /* field_score@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "field_score@2x.png"; sourceTree = "<group>"; };
+		C35AD5991F87933E0084619C /* field_time.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = field_time.png; sourceTree = "<group>"; };
+		C35AD59A1F87933E0084619C /* field_time@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "field_time@2x.png"; sourceTree = "<group>"; };
+		C35AD59B1F87933E0084619C /* HallOfTheMountainKing.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = HallOfTheMountainKing.mp3; sourceTree = "<group>"; };
+		C35AD5A01F87933E0084619C /* SecondBeep.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = SecondBeep.wav; sourceTree = "<group>"; };
+		C35AD5A61F87933E0084619C /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C35AD5A81F87933E0084619C /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C35AD5A91F87933E0084619C /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		C3601AA31F8E23B900470D29 /* ic_exit_to_app_white.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_exit_to_app_white.png; sourceTree = "<group>"; };
+		C3601AA41F8E23B900470D29 /* ic_exit_to_app_white_2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_exit_to_app_white_2x.png; sourceTree = "<group>"; };
+		C3601AA51F8E23B900470D29 /* ic_exit_to_app_white_3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_exit_to_app_white_3x.png; sourceTree = "<group>"; };
+		C3601AB41F8E294A00470D29 /* ic_play_arrow_white_48pt.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_play_arrow_white_48pt.png; sourceTree = "<group>"; };
+		C3601AB51F8E294A00470D29 /* ic_play_arrow_white_48pt_2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_play_arrow_white_48pt_2x.png; sourceTree = "<group>"; };
+		C3601AB61F8E294A00470D29 /* ic_play_arrow_white_48pt_3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_play_arrow_white_48pt_3x.png; sourceTree = "<group>"; };
+		C36459141F8CD44E00094922 /* LoginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		C36459151F8CD44E00094922 /* LoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		C36459171F8CDA7E00094922 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		C36459191F8CDD5200094922 /* SignUpViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SignUpViewController.h; sourceTree = "<group>"; };
+		C364591A1F8CDD5200094922 /* SignUpViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SignUpViewController.m; sourceTree = "<group>"; };
+		C38A4AC81F8B7A3D00F47EAE /* ic_pause_circle_outline_white.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_pause_circle_outline_white.png; sourceTree = "<group>"; };
+		C38A4AC91F8B7A3D00F47EAE /* ic_pause_circle_outline_white_2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_pause_circle_outline_white_2x.png; sourceTree = "<group>"; };
+		C38A4ACA1F8B7A3D00F47EAE /* ic_pause_circle_outline_white_3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_pause_circle_outline_white_3x.png; sourceTree = "<group>"; };
+		C38A4ACD1F8B7A4B00F47EAE /* ic_play_circle_outline_white.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_play_circle_outline_white.png; sourceTree = "<group>"; };
+		C38A4ACE1F8B7A4B00F47EAE /* ic_play_circle_outline_white_2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_play_circle_outline_white_2x.png; sourceTree = "<group>"; };
+		C38A4ACF1F8B7A4B00F47EAE /* ic_play_circle_outline_white_3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_play_circle_outline_white_3x.png; sourceTree = "<group>"; };
+		C38A4AD21F8B7C6A00F47EAE /* ic_stop_white.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_stop_white.png; sourceTree = "<group>"; };
+		C38A4AD31F8B7C6A00F47EAE /* ic_stop_white_2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_stop_white_2x.png; sourceTree = "<group>"; };
+		C38A4AD41F8B7C6A00F47EAE /* ic_stop_white_3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_stop_white_3x.png; sourceTree = "<group>"; };
+		CFC1B83567F10E2D61D556E6 /* Pods-ButtonTap.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ButtonTap.release.xcconfig"; path = "Pods/Target Support Files/Pods-ButtonTap/Pods-ButtonTap.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C3103BAA1E27536D00164E9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C54BA84AB4D88923FE02297 /* libPods-ButtonTap.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		596744A081792A57702FDC3B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				71F4F3E29A25660173B9651B /* libPods-ButtonTap.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C3103BA41E27536C00164E9A = {
+			isa = PBXGroup;
+			children = (
+				C3103BAF1E27536D00164E9A /* ButtonTap */,
+				C3103BAE1E27536D00164E9A /* Products */,
+				F584A29C4DE2C7601AD2A63F /* Pods */,
+				596744A081792A57702FDC3B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C3103BAE1E27536D00164E9A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C3103BAD1E27536D00164E9A /* ButtonTap.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C3103BAF1E27536D00164E9A /* ButtonTap */ = {
+			isa = PBXGroup;
+			children = (
+				C35AD57C1F87933E0084619C /* Classes */,
+				C35AD5891F87933E0084619C /* Resources */,
+			);
+			path = ButtonTap;
+			sourceTree = "<group>";
+		};
+		C317BF501F8E2D9B0036BF59 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				C317BF511F8E2DB30036BF59 /* Define.h */,
+				C35A3AEA1F8F59C40088E0BE /* Utility.h */,
+				C35A3AEB1F8F59C40088E0BE /* Utility.m */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		C35AD57C1F87933E0084619C /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				C35AD57D1F87933E0084619C /* AppDelegate */,
+				C35AD5811F87933E0084619C /* DataManager */,
+				C317BF501F8E2D9B0036BF59 /* Utility */,
+				C35AD5841F87933E0084619C /* ViewController */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		C35AD57D1F87933E0084619C /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				C35AD57E1F87933E0084619C /* AppDelegate.h */,
+				C35AD57F1F87933E0084619C /* AppDelegate.m */,
+				C35AD5801F87933E0084619C /* main.m */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		C35AD5811F87933E0084619C /* DataManager */ = {
+			isa = PBXGroup;
+			children = (
+				C35AD5821F87933E0084619C /* TapMeManager.h */,
+				C35AD5831F87933E0084619C /* TapMeManager.m */,
+				C317BF4D1F8E2CC60036BF59 /* DataManager.h */,
+				C317BF4E1F8E2CC60036BF59 /* DataManager.m */,
+			);
+			path = DataManager;
+			sourceTree = "<group>";
+		};
+		C35AD5841F87933E0084619C /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				C35AD5851F87933E0084619C /* HomeScreenViewController.h */,
+				C35AD5861F87933E0084619C /* HomeScreenViewController.m */,
+				C35AD5871F87933E0084619C /* GameViewController.h */,
+				C35AD5881F87933E0084619C /* GameViewController.m */,
+				C36459141F8CD44E00094922 /* LoginViewController.h */,
+				C36459151F8CD44E00094922 /* LoginViewController.m */,
+				C36459191F8CDD5200094922 /* SignUpViewController.h */,
+				C364591A1F8CDD5200094922 /* SignUpViewController.m */,
+				C317BF521F8E3B6C0036BF59 /* SplashScreenViewController.h */,
+				C317BF531F8E3B6C0036BF59 /* SplashScreenViewController.m */,
+				C35A3AE71F8F581D0088E0BE /* ResetPasswordViewController.h */,
+				C35A3AE81F8F581D0088E0BE /* ResetPasswordViewController.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		C35AD5891F87933E0084619C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C35AD58A1F87933E0084619C /* Images */,
+				C35AD5A51F87933E0084619C /* Others */,
+				C35AD5A71F87933E0084619C /* Storyboard */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		C35AD58A1F87933E0084619C /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				C3601AB31F8E294A00470D29 /* ic_play_arrow_white_48pt.imageset */,
+				C3601AA11F8E23B900470D29 /* ic_exit_to_app_white.imageset */,
+				C38A4AD01F8B7C6A00F47EAE /* ic_stop_white.imageset */,
+				C38A4ACB1F8B7A4B00F47EAE /* ic_play_circle_outline_white.imageset */,
+				C38A4AC61F8B7A3D00F47EAE /* ic_pause_circle_outline_white.imageset */,
+				C35AD58B1F87933E0084619C /* Assets.xcassets */,
+				C35AD58C1F87933E0084619C /* bg_tile.png */,
+				C35AD58D1F87933E0084619C /* bg_tile@2x.png */,
+				C35AD58E1F87933E0084619C /* button_tap_deselected.png */,
+				C35AD58F1F87933E0084619C /* button_tap_deselected@2x.png */,
+				C35AD5901F87933E0084619C /* button_tap_selected.png */,
+				C35AD5911F87933E0084619C /* button_tap_selected@2x.png */,
+				C35AD5921F87933E0084619C /* ButtonTap.wav */,
+				C35AD5931F87933E0084619C /* checker_bottom.png */,
+				C35AD5941F87933E0084619C /* checker_bottom@2x.png */,
+				C35AD5951F87933E0084619C /* checker_top.png */,
+				C35AD5961F87933E0084619C /* checker_top@2x.png */,
+				C35AD5971F87933E0084619C /* field_score.png */,
+				C35AD5981F87933E0084619C /* field_score@2x.png */,
+				C35AD5991F87933E0084619C /* field_time.png */,
+				C35AD59A1F87933E0084619C /* field_time@2x.png */,
+				C35AD59B1F87933E0084619C /* HallOfTheMountainKing.mp3 */,
+				C35AD5A01F87933E0084619C /* SecondBeep.wav */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		C35AD5A51F87933E0084619C /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				C36459171F8CDA7E00094922 /* GoogleService-Info.plist */,
+				C35AD5A61F87933E0084619C /* Info.plist */,
+			);
+			path = Others;
+			sourceTree = "<group>";
+		};
+		C35AD5A71F87933E0084619C /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				C35AD5A81F87933E0084619C /* LaunchScreen.storyboard */,
+				C35AD5A91F87933E0084619C /* Main.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		C3601AA11F8E23B900470D29 /* ic_exit_to_app_white.imageset */ = {
+			isa = PBXGroup;
+			children = (
+				C3601AA31F8E23B900470D29 /* ic_exit_to_app_white.png */,
+				C3601AA41F8E23B900470D29 /* ic_exit_to_app_white_2x.png */,
+				C3601AA51F8E23B900470D29 /* ic_exit_to_app_white_3x.png */,
+			);
+			path = ic_exit_to_app_white.imageset;
+			sourceTree = "<group>";
+		};
+		C3601AB31F8E294A00470D29 /* ic_play_arrow_white_48pt.imageset */ = {
+			isa = PBXGroup;
+			children = (
+				C3601AB41F8E294A00470D29 /* ic_play_arrow_white_48pt.png */,
+				C3601AB51F8E294A00470D29 /* ic_play_arrow_white_48pt_2x.png */,
+				C3601AB61F8E294A00470D29 /* ic_play_arrow_white_48pt_3x.png */,
+			);
+			path = ic_play_arrow_white_48pt.imageset;
+			sourceTree = "<group>";
+		};
+		C38A4AC61F8B7A3D00F47EAE /* ic_pause_circle_outline_white.imageset */ = {
+			isa = PBXGroup;
+			children = (
+				C38A4AC81F8B7A3D00F47EAE /* ic_pause_circle_outline_white.png */,
+				C38A4AC91F8B7A3D00F47EAE /* ic_pause_circle_outline_white_2x.png */,
+				C38A4ACA1F8B7A3D00F47EAE /* ic_pause_circle_outline_white_3x.png */,
+			);
+			path = ic_pause_circle_outline_white.imageset;
+			sourceTree = "<group>";
+		};
+		C38A4ACB1F8B7A4B00F47EAE /* ic_play_circle_outline_white.imageset */ = {
+			isa = PBXGroup;
+			children = (
+				C38A4ACD1F8B7A4B00F47EAE /* ic_play_circle_outline_white.png */,
+				C38A4ACE1F8B7A4B00F47EAE /* ic_play_circle_outline_white_2x.png */,
+				C38A4ACF1F8B7A4B00F47EAE /* ic_play_circle_outline_white_3x.png */,
+			);
+			path = ic_play_circle_outline_white.imageset;
+			sourceTree = "<group>";
+		};
+		C38A4AD01F8B7C6A00F47EAE /* ic_stop_white.imageset */ = {
+			isa = PBXGroup;
+			children = (
+				C38A4AD21F8B7C6A00F47EAE /* ic_stop_white.png */,
+				C38A4AD31F8B7C6A00F47EAE /* ic_stop_white_2x.png */,
+				C38A4AD41F8B7C6A00F47EAE /* ic_stop_white_3x.png */,
+			);
+			path = ic_stop_white.imageset;
+			sourceTree = "<group>";
+		};
+		F584A29C4DE2C7601AD2A63F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				ADB7F7343E6F1C871F4EB5D3 /* Pods-ButtonTap.debug.xcconfig */,
+				CFC1B83567F10E2D61D556E6 /* Pods-ButtonTap.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C3103BAC1E27536D00164E9A /* ButtonTap */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C3103BC41E27536D00164E9A /* Build configuration list for PBXNativeTarget "ButtonTap" */;
+			buildPhases = (
+				5ABF67789C1A7B0C12C9D3DF /* [CP] Check Pods Manifest.lock */,
+				C3103BA91E27536D00164E9A /* Sources */,
+				C3103BAA1E27536D00164E9A /* Frameworks */,
+				C3103BAB1E27536D00164E9A /* Resources */,
+				F92FBE44B5749AD9A3D00773 /* [CP] Embed Pods Frameworks */,
+				446D1BD8B107B56EC1ECB4D9 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ButtonTap;
+			productName = ButtonTap;
+			productReference = C3103BAD1E27536D00164E9A /* ButtonTap.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C3103BA51E27536D00164E9A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "Shamshad Khan";
+				TargetAttributes = {
+					C3103BAC1E27536D00164E9A = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = C477SB4394;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = C3103BA81E27536D00164E9A /* Build configuration list for PBXProject "ButtonTap" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C3103BA41E27536C00164E9A;
+			productRefGroup = C3103BAE1E27536D00164E9A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C3103BAC1E27536D00164E9A /* ButtonTap */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C3103BAB1E27536D00164E9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C38A4AD51F8B7EA000F47EAE /* ic_stop_white.png in Resources */,
+				C38A4AD61F8B7EA000F47EAE /* ic_stop_white_2x.png in Resources */,
+				C38A4AD71F8B7EA000F47EAE /* ic_stop_white_3x.png in Resources */,
+				C3601AA91F8E23BB00470D29 /* ic_exit_to_app_white_3x.png in Resources */,
+				C38A4AD81F8B7EA000F47EAE /* ic_play_circle_outline_white.png in Resources */,
+				C38A4AD91F8B7EA000F47EAE /* ic_play_circle_outline_white_2x.png in Resources */,
+				C38A4ADA1F8B7EA000F47EAE /* ic_play_circle_outline_white_3x.png in Resources */,
+				C38A4ADB1F8B7EA000F47EAE /* ic_pause_circle_outline_white.png in Resources */,
+				C3601AA81F8E23BB00470D29 /* ic_exit_to_app_white_2x.png in Resources */,
+				C38A4ADC1F8B7EA000F47EAE /* ic_pause_circle_outline_white_2x.png in Resources */,
+				C38A4ADD1F8B7EA000F47EAE /* ic_pause_circle_outline_white_3x.png in Resources */,
+				C35AD5BE1F87933E0084619C /* field_time@2x.png in Resources */,
+				C35AD5C41F87933E0084619C /* SecondBeep.wav in Resources */,
+				C35AD5BF1F87933E0084619C /* HallOfTheMountainKing.mp3 in Resources */,
+				C35AD5B41F87933E0084619C /* button_tap_selected.png in Resources */,
+				C35AD5BD1F87933E0084619C /* field_time.png in Resources */,
+				C35AD5B11F87933E0084619C /* bg_tile@2x.png in Resources */,
+				C35AD5B61F87933E0084619C /* ButtonTap.wav in Resources */,
+				C35AD5B21F87933E0084619C /* button_tap_deselected.png in Resources */,
+				C3601AA71F8E23BB00470D29 /* ic_exit_to_app_white.png in Resources */,
+				C36459181F8CDA7E00094922 /* GoogleService-Info.plist in Resources */,
+				C35AD5BC1F87933E0084619C /* field_score@2x.png in Resources */,
+				C35AD5B01F87933E0084619C /* bg_tile.png in Resources */,
+				C35AD5B91F87933E0084619C /* checker_top.png in Resources */,
+				C35AD5B51F87933E0084619C /* button_tap_selected@2x.png in Resources */,
+				C35AD5B71F87933E0084619C /* checker_bottom.png in Resources */,
+				C35AD5AF1F87933E0084619C /* Assets.xcassets in Resources */,
+				C35AD5BB1F87933E0084619C /* field_score.png in Resources */,
+				C35AD5B31F87933E0084619C /* button_tap_deselected@2x.png in Resources */,
+				C3601AB71F8E294D00470D29 /* ic_play_arrow_white_48pt.png in Resources */,
+				C3601AB91F8E294D00470D29 /* ic_play_arrow_white_48pt_3x.png in Resources */,
+				C35AD5CB1F87933E0084619C /* Main.storyboard in Resources */,
+				C35AD5BA1F87933E0084619C /* checker_top@2x.png in Resources */,
+				C3601AB81F8E294D00470D29 /* ic_play_arrow_white_48pt_2x.png in Resources */,
+				C35AD5CA1F87933E0084619C /* LaunchScreen.storyboard in Resources */,
+				C35AD5B81F87933E0084619C /* checker_bottom@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		446D1BD8B107B56EC1ECB4D9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ButtonTap/Pods-ButtonTap-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5ABF67789C1A7B0C12C9D3DF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F92FBE44B5749AD9A3D00773 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ButtonTap/Pods-ButtonTap-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C3103BA91E27536D00164E9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C35AD5AB1F87933E0084619C /* main.m in Sources */,
+				C35A3AE91F8F581D0088E0BE /* ResetPasswordViewController.m in Sources */,
+				C35AD5AD1F87933E0084619C /* HomeScreenViewController.m in Sources */,
+				C36459161F8CD44E00094922 /* LoginViewController.m in Sources */,
+				C35AD5AA1F87933E0084619C /* AppDelegate.m in Sources */,
+				C35AD5AC1F87933E0084619C /* TapMeManager.m in Sources */,
+				C317BF4F1F8E2CC60036BF59 /* DataManager.m in Sources */,
+				C35A3AEC1F8F59C40088E0BE /* Utility.m in Sources */,
+				C317BF541F8E3B6C0036BF59 /* SplashScreenViewController.m in Sources */,
+				C364591B1F8CDD5200094922 /* SignUpViewController.m in Sources */,
+				C35AD5AE1F87933E0084619C /* GameViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		C3103BC21E27536D00164E9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C3103BC31E27536D00164E9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C3103BC51E27536D00164E9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ADB7F7343E6F1C871F4EB5D3 /* Pods-ButtonTap.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = C477SB4394;
+				INFOPLIST_FILE = "$(SRCROOT)/ButtonTap/Resources/Others/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sam.developer.ButtonTap;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		C3103BC61E27536D00164E9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CFC1B83567F10E2D61D556E6 /* Pods-ButtonTap.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = C477SB4394;
+				INFOPLIST_FILE = "$(SRCROOT)/ButtonTap/Resources/Others/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sam.developer.ButtonTap;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C3103BA81E27536D00164E9A /* Build configuration list for PBXProject "ButtonTap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3103BC21E27536D00164E9A /* Debug */,
+				C3103BC31E27536D00164E9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C3103BC41E27536D00164E9A /* Build configuration list for PBXNativeTarget "ButtonTap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3103BC51E27536D00164E9A /* Debug */,
+				C3103BC61E27536D00164E9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C3103BA51E27536D00164E9A /* Project object */;
+}
